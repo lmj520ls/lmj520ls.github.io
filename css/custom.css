@@ -19,3 +19,12 @@
 .categoryButton.pink   i {
   color: #fff !important;
 }
+/* 让文章和自定义容器内的图片自动适应屏幕宽度 */
+.post-content img, 
+.article-entry img,
+img {
+  max-width: 100% !important;
+  height: auto !important;
+  display: block;
+  margin: 0 auto; /* 居中显示 */
+}
